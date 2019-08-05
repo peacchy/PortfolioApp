@@ -1,19 +1,22 @@
-import React, {Component} from 'react';
-import MenuItem from './MenuItem';
+import React, { Component } from "react";
+import MenuItem from "./menu-item/MenuItem";
+import { Link } from "react-router-dom";
 
-import './Menu.css';
+import "./Menu.scss";
 
 class Menu extends Component {
-    render(){
-        return(
-            <ul>
-                Hello I'm Darias' menu!
-                <MenuItem text="Hello1"></MenuItem>
-                <MenuItem text= "Hello2"></MenuItem>
-            </ul>
-        )
-    }
-
+  render() {
+    return (
+      <div class="topnav">
+        <Link to="/" name="Home">
+          <MenuItem text="Home" />
+        </Link>
+        <Link to="/dummy" name="Dummy">
+          <MenuItem text="Dummy" />
+        </Link>
+      </div>
+    );
+  }
 }
 
 export default Menu;
