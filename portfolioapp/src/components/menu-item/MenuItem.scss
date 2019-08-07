@@ -1,8 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 .navbar-menu-item {
     color: #67605F;
     width: max-content;
     align-items: center;
     justify-content: center;
+    font-family: 'Anonymous Pro', monospace; 
+    font-size:  85%;
     display: flex;
     padding: 14px 16px;
 }
