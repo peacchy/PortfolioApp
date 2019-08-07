@@ -8,12 +8,8 @@ class Menu extends Component {
   render() {
     return (
       <div class="topnav">
-        <Link to="/" name="Home">
-          <MenuItem text="Home" />
-        </Link>
-        <Link to="/dummy" name="Dummy">
-          <MenuItem text="Dummy" />
-        </Link>
+        <MenuItem to="/" name="Home" />
+        <MenuItem to="/dummy" name="Dummy" />
       </div>
     );
   }
