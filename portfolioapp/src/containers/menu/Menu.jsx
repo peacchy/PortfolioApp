@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import MenuItem from "./menu-item/MenuItem";
-import { Link } from "react-router-dom";
+import MenuItem from "../../components/menu-item/MenuItem";
 
 import "./Menu.scss";
 

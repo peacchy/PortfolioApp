@@ -2,9 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 .welcome-header{
-  height: calc(100vh - 8em);
-  padding: 4em;
-  color: rgba(255,255,255,.75);
+  height: calc(100vh - 5em);
+  padding: 1em;
+  color: #67605F;
   font-family: 'Anonymous Pro', monospace;  
-  background-color: rgb(25,25,25);  
+  background-color: #FDF5EE;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
