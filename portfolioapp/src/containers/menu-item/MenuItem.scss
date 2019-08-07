@@ -1,9 +1,16 @@
 .navbar-menu-item {
     color: white;
-    border: 1px solid red;
-    height: inherit;
     width: max-content;
     align-items: center;
     justify-content: center;
     display: flex;
+    padding: 14px 16px;
+}
+
+.navbar-menu-item:hover {
+    background-color: #111;
+}
+
+.menu-item-link a {
+    text-decoration: none;
 }
