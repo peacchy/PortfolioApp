@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
 
+import Header from "./containers/header/Header";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        IT'S ME! DARIA!
+        <Header></Header>
       </header>
+
     </div>
   );
 }
