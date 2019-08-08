@@ -1,11 +1,18 @@
 .about-me-front {
     background-color: #FDF5EE;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 700px;
+    overflow: hidden;
+    position: relative;
+    top: 30px;
+    left: 45px;
+    padding: 30px;
+    font-weight: bold;
 }
 
 .about-me-back {
     background-color: #F6C6A9;
     height: 300px;
-    width: 300px;
+    width: 700px;
+    position: absolute;
 }

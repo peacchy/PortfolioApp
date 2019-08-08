@@ -1,5 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 * {
   box-sizing: border-box;
+  font-family: 'Anonymous Pro', monospace;  
+  color: #67605F;
 }
 
 .App {
