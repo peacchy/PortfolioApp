@@ -1,0 +1,16 @@
+.navbar-menu-item {
+    color: #67605F;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 14px 16px;
+}
+
+.navbar-menu-item:hover {
+    color: #F6C6A9;
+}
+
+.menu-item-link a {
+    text-decoration: none;
+}
