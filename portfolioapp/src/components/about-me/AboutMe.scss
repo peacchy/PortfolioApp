@@ -1,7 +1,13 @@
+.about-me-box {
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
 .about-me-front {
     background-color: #FDF5EE;
     height: 300px;
-    width: 700px;
+    width: 550px;
     overflow: hidden;
     position: relative;
     top: 30px;
@@ -13,6 +19,6 @@
 .about-me-back {
     background-color: #F6C6A9;
     height: 300px;
-    width: 700px;
+    width: 550px;
     position: absolute;
 }

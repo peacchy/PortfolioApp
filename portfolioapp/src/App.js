@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
+import Menu from './containers/menu/Menu';
+import Header from './containers/header/Header';
 import AboutMe from './components/about-me/AboutMe';
 
 import './App.css';
@@ -12,8 +14,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <header className="App-header">
-          {/* <Menu />
-          <Header /> */}
+          <Menu />
+          <Header />
         </header>
         <AboutMe />
 
