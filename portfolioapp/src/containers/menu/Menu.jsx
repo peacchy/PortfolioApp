@@ -8,7 +8,6 @@ class Menu extends Component {
     return (
       <div class="topnav">
         <MenuItem to="/" name="Home" />
-        <MenuItem to="/dummy" name="Dummy" />
       </div>
     );
   }
